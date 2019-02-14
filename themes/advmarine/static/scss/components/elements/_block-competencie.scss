@@ -1,0 +1,39 @@
+.block-competencies {
+  background-color: #C9DCDC;
+
+  &__title {
+    text-align: center;
+
+    h2 {
+      color: #01315F;
+      text-transform: uppercase;
+    }
+  }
+
+  &__body {
+
+    ul {
+      li {
+        font-size: 15px;
+        color: #01315F;
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+
+    &__title {
+      h2 {
+        font-size: 36px;
+      }
+    }
+
+    &__body {
+      ul {
+        li {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

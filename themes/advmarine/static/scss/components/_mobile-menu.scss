@@ -1,0 +1,21 @@
+.mobile-menu {
+  background: #E12A2A;
+  z-index: 2;
+
+  ul {
+    padding-top: 1rem;
+
+    li {
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

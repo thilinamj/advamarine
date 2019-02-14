@@ -1,0 +1,30 @@
+.block-expertise {
+  background-color: #E12A2A;
+  color: white;
+
+  &__title {
+    text-align: center;
+
+    h2 {
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+
+  @include breakpoint(medium) {
+
+    &__title {
+      h2 {
+        font-size: 36px;
+      }
+    }
+
+    &__body {
+      ul {
+        li {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

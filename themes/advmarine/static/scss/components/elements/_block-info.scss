@@ -1,0 +1,45 @@
+.block-info {
+  position: relative;
+  background-color: #6ED6D6;
+
+  &__title {
+    text-align: center;
+
+    h2 {
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+      color: #01315F;
+    }
+  }
+
+  &__body {
+
+    p {
+      font-size: 15px;
+      color: #01315F;
+      margin-bottom: 0;
+    }
+  }
+
+  @include breakpoint(medium) {
+
+    &__title {
+      font-size: 36px;
+
+      h2 {
+        font-size: 36px;
+      }
+    }
+
+    &__body {
+
+      p {
+        font-size: 22px;
+        letter-spacing: 0.03em;
+        color: #01315F;
+      }
+    }
+  }
+}

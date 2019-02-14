@@ -1,0 +1,31 @@
+.footer{
+  background-color: #00264D;
+
+  h2{
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__form{
+    background-color: white;
+    padding: 20px;
+  }
+  &__input-text {
+    padding-right: 20px;
+
+    input {
+      border: none;
+      border-bottom: 1px solid black;
+      box-shadow: none !important;
+      max-width: 400px;
+    }
+  }
+    &__input-textarea{
+
+      input{
+        max-width: 400px;
+      }
+
+    }
+}
+

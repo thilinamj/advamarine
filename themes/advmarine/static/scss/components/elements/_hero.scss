@@ -1,0 +1,63 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  margin: 0 50px;
+
+  .grid-container {
+    position: relative;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  &__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    @include bg-image;
+  }
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    text-align: center;
+    background: rgba(1, 49, 95, 0.31);
+    min-height: 500px;
+  }
+
+  &__title {
+    h2 {
+      font-size: 30px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+
+  @include breakpoint(large) {
+
+    &__title {
+      h2 {
+        font-size: 60px;
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+    .wrapper{
+      min-height: 600px;
+    }
+
+    &__title {
+      h2 {
+        font-size: 60px;
+      }
+    }
+  }
+}
+
