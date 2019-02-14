@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   min-height: 500px;
-  margin: 0 50px;
+  margin: 0 20px;
 
   .grid-container {
     position: relative;
@@ -39,7 +39,8 @@
     }
   }
 
-  @include breakpoint(large) {
+  @include breakpoint(large)
+    margin: 0 50px;
 
     &__title {
       h2 {
@@ -49,7 +50,8 @@
   }
 
   @include breakpoint(medium) {
-    .wrapper{
+
+    .wrapper {
       min-height: 600px;
     }
 

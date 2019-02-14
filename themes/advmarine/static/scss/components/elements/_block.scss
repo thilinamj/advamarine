@@ -1,7 +1,13 @@
 .same-margin {
-   margin: 50px ;
+   margin: 20px ;
+  @include breakpoint(large){
+    margin: 50px ;
+  }
  }
 
 .same-padding {
-  padding: 30px ;
+  padding: 20px ;
+  @include breakpoint(large){
+    margin: 50px ;
+  }
 }
