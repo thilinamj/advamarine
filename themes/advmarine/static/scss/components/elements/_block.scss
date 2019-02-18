@@ -8,6 +8,6 @@
 .same-padding {
   padding: 20px ;
   @include breakpoint(large){
-    margin: 50px ;
+    padding: 50px ;
   }
 }

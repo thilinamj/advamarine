@@ -1,31 +1,79 @@
-.footer{
+.footer {
   background-color: #00264D;
 
-  h2{
+  h2 {
     color: white;
     text-transform: uppercase;
   }
 
-  &__form{
+  &__form {
     background-color: white;
     padding: 20px;
-  }
-  &__input-text {
-    padding-right: 20px;
 
-    input {
+
+    #Form_Form_Name {
+      border: none;
+      border-bottom: 1px solid black;
+      box-shadow: none !important;
+      max-width: 400px;
+    }
+
+    #Form_Form_Email {
       border: none;
       border-bottom: 1px solid black;
       box-shadow: none !important;
       max-width: 400px;
     }
   }
-    &__input-textarea{
 
-      input{
-        max-width: 400px;
+  &__contact-text {
+    background-color: #000000;
+    text-align: center;
+
+    ul {
+      list-style: none;
+
+      li {
+        color: #FFFFFF;
       }
-
     }
-}
 
+
+    h4 {
+      color: #ffff;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__logo {
+    img {
+      width: 200px;
+      max-width: 100%;
+      margin-bottom: 20px
+    }
+  }
+
+  @include breakpoint(large) {
+
+    &__logo {
+      img {
+        width: 250px;
+        max-width: 100%;
+      }
+    }
+
+    h4 {
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      font-size: 22px;
+      letter-spacing: 0.05em;
+    }
+    ul{
+      li{
+        font-size: 22px;
+      }
+    }
+  }
+}

@@ -39,7 +39,7 @@
     }
   }
 
-  @include breakpoint(large)
+  @include breakpoint(large) {
     margin: 0 50px;
 
     &__title {
@@ -62,4 +62,3 @@
     }
   }
 }
-

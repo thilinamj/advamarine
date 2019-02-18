@@ -3,7 +3,7 @@
     <div class="grid-x header__nav">
         <div class="header__logo">
             <a href="$BaseHref">
-                <img src="{$ThemeDir}/static/images/svg/logo.svg">
+                <img src="{$ThemeDir}/static/images/logo.png">
             </a>
         </div>
 
